@@ -73,6 +73,15 @@ top: -3px;
 padding: 3px;
 }
 
+@media screen, (min-width: 375px) {
+
+  .submit{
+    /* position: relative; top: 65vh; right: 0vh; */
+  top: -1px;
+  }
+ }
+
+
 
 .newq{
   position: relative;
@@ -81,8 +90,9 @@ padding: 3px;
 @media screen, (min-width: 375px) {
 
   .newq{
-    /* position: relative; top: 65vh; right: 0vh; */
   top: 30px;
+  width: 180px;
+  height: 50px;
   }
  }
 
@@ -93,8 +103,8 @@ padding: 3px;
 @media screen, (min-width: 375px) {
 
   .terms{
-    /* position: relative; top: 65vh; right: 0vh; */
     font-size: 8px;
+    top: 90px;
   }
  }
 
@@ -108,7 +118,6 @@ padding: 3px;
 @media screen, (min-width: 375px) {
 
   .trademark{
-    /* position: relative; top: 65vh; right: 0vh; */
-    bottom: -50px;
+    bottom: -150px;
   }
  }
