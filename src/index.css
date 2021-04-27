@@ -121,3 +121,8 @@ padding: 3px;
     bottom: -150px;
   }
  }
+
+ ::placeholder{
+  color: rgb(21, 13, 26);
+
+ }
